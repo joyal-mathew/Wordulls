@@ -14,8 +14,6 @@
     let unerror = null;
     let tempCursor = null;
 
-    console.log(chosenWord);
-
     document.getElementById("helpButton").onclick = showHelp;
 
     document.getElementById("helpClose").onclick = () => {
