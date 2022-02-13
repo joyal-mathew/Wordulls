@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Wordulls</title>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="header">
+        <span class="wbutton" id="helpButton">?</span>
+    </div>
+    <div id="wordull">
+        <div id="error">Error</div>
+    </div>
+    <div id="help">
+        <div id="helpClose" class="wbutton" style="font-size: 16px;">&#9587;</div>
+        <div style="text-align: center;"><h1>Wordulls</h1></div>
+        <p>Try to correctly guess a secret word in as few guesses as possible. Each guess must be a valid, four-letter, English word (the secret word will also be as such). To submit your guess, press enter.</p>
+        <p>After each guess you will get two hints. In <span style="color: green">green:</span> how many letters of your guess were the same as the letter in the corresponding position of the secret word. In <span style="color: #cccc00">yellow:</span> how many of the set of remaining of letters in your guess are present in the set of remaining letters of the secret word. Remaining letters are those which are different from the corresponding letter in the other word</p>
+    </div>
+    <script src="./words.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
